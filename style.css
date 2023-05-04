@@ -1,0 +1,22 @@
+body {
+    background-image:url('./imgs/sl_031420_28950_10.jpg');
+}
+
+#perfil_picture {
+    width: 200px;
+    border-radius: 200px;
+}
+
+#name_title {
+    text-align: center;
+    font-size: 80px;
+    color: rgb(228, 225, 225);
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    color: rgb(211, 206, 206); 
+}
