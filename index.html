@@ -7,36 +7,55 @@
     <title>Meu Portifólio</title>
 </head>
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-<body>
-    <h1 id="name_title">Lucas da Silva Oliveira</h1>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap" rel="stylesheet">
+<body style="font-family: 'Montserrat';">
     <div class="apresentacao">
-        <img id="perfil_picture" src="./imgs/1665015393859.jpeg" alt="Lucas">
-    <div>
-        <p>Olá, meu nome é Lucas da Silva Oliveira, moro em Valparaíso de Goiás, tenho 25 anos, formado em Análise e Desenvolvimento de Sistemas, sou um Desenvolvedor Web em contante aprendizado.Grande disposição para o aprendizado e a aplicação de conhecimentos e habilidades interpessoais no âmbito profissional, buscando crescimento constante. Segue abaixo minhas informações pra contato:</p>
-        <p>Linkedin: <a href="https://www.linkedin.com/in/lucassilvao/" target="_blank">https://www.linkedin.com/in/lucassilvao/</a></p>
-        <p>Email: lucas.oliveiraaa20@gmail.com</p> 
+        <p>Olá, eu sou Lucas da Silva Oliveira</p>
+        <p>Desenvolvedor apaixonado por tecnologia e inovação.</p>
+        <p>Bem-vindo ao meu Portfólio</p>
     </div>
-    </div>
-    <div class="tech_container">
-    <div class="tech_list">
-        <h2>Principais Tecnologias: </h2>
-        <li>JavaScript;</li>
-        <li>React;</li>
-        <li>HTML;</li>
-        <li>CSS;</li>
-        <li>Redux;</li>
-        <li>Jest;</li>
-        <li>RTL;</li>
-        <li>Docker;</li>
-        <li>MySQL;</li>
-    </div>
-        <div class="projects_container">
-            <h2>Principais Projetos: </h2>
-            <li><a href="https://github.com/LucasSilvaO/recipes-app" target="_blank">Recipes App</a></li>
-            <p>- O projeto Recipes App se trata de um Aplicativo de receitas, utilizando apenas React e Redux.</p>
-            <li><a href="https://github.com/LucasSilvaO/Souls-Tryunfo" target="_blank">Souls-Tryunfo</a></li>
-            <p>- O projeto Souls-Tryunfo é um aplicativo baseado no estilo de jogo super trunfo com a temática da franquia de jogos Dark Souls.</p>
+    <img src="./imgs/development-g8a50ef6e1_1280.png" width="40%" style="padding-bottom: 10%; padding-top: 5%;">
+    <section>
+    <div class="tech-list">
+        <p>Principais Tecnologias</p>
+        <div class="techs">
+            <img src="./imgs/icons8-front-end-64.png">
+            <p style="font-size: 25px; font-weight: bold;">Frontend</p>
+            <li style="text-align: center;">JavaScript <img src="./imgs/icons/icons8-js.gif" width="16px"></li>
+            <li>React <img src="./imgs/icons/icons8-reagir.gif" width="16px"></li>
+            <li>Redux <img src="./imgs/icons/icons8-redux-48.png" width="16px"></li>
+            <li>HTML <img src="./imgs/icons/icons8-html-48.png" width="16px"></li>
+            <li>CSS <img src="./imgs/icons/icons8-css-48.png" width="16px"></li>
+        </div>
+        <div class="techs">
+            <img src="./imgs/icons8-backend-64 (1).png">
+            <p style="font-size: 25px; font-weight: bold;">Backend</p>
+            <li>Node.js <img src="./imgs/icons/icons8-node-js-48.png" width="16px"></li>
+            <li>TypeScript <img src="./imgs/icons/icons8-typescript-48.png" width="16px"></li>
+            <li>Python <img src="./imgs/icons/icons8-python.gif" width="16px"></li>
+            <li>Django <img src="./imgs/icons/icons8-django-a-high-level-python-web-framework-that-encourages-rapid-development-24.png" width="16px"></li>
+            <li>Sequelize <img src="./imgs/icons/png-transparent-sequelize-plain-logo-icon.png" width="16px"></li>
+            <li>MySQL <img src="./imgs/icons/icons8-mysql-48.png" width="16px"></li>
         </div>
     </div>
+    <div class="projects">
+        <p>Meus projetos recentes</p>
+        <div style="display: flex; justify-content: space-around; padding-top: 5%;">
+            <div class="project">
+                <img src="./imgs/Captura de tela de 2023-07-27 21-30-03.png" width="">
+                <p id="description" hidden>Projeto desenvolvido utilizando o que há de mais moderno dentro do ecossistema React e Redux.  No aplicativo é possível ver, buscar, filtrar, favoritar e acompanhar o progresso de preparação de receitas de comidas e bebidas.</p>
+                <a id="button-description" hidden href="https://github.com/LucasSilvaO/recipes-app" target="_blank">Ver Repositório</a>        
+            </div>
+            <div class="project">
+                <img src="./imgs/Captura de tela de 2023-07-27 21-39-08.png">
+                <p id="description" hidden>Uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.</p>
+                <a id="button-description" hidden href="https://github.com/LucasSilvaO/trybetunnes-app" target="_blank">Ver Repositório</a>             
+            </div>
+        </div>
+    </div>
+    </section>
+    <script src="./index.js"></script>
 </body>
 </html>
