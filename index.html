@@ -12,14 +12,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap" rel="stylesheet">
 <body style="font-family: 'Montserrat';">
     <header>
-        <div style="display: flex; flex-direction: row; width: 50%; justify-content: center;">
+        <div class="icon-container">
             <a href="https://www.linkedin.com/in/lucassilvao/" target="_blank"><img src="./imgs/icons/icons8-linkedin-48.png"></a>
             <a href="https://github.com/LucasSilvaO" target="_blank"><img src="./imgs//icons/icons8-github-48.png"></a>
         </div>
         <nav>
-            <a>Sobre mim</a>
+            <a href="#sobre">Sobre mim</a>
             
-            <a>Projetos</a>
+            <a href="#projects">Projetos</a>
             
             <a>Contato</a>
         </nav>
@@ -30,7 +30,7 @@
         <p>Bem-vindo ao meu Portfólio</p>
     </div>
     <img src="./imgs/development-g8a50ef6e1_1280.png" width="40%" style="padding-bottom: 5%; padding-top: 5%;">
-    <div style="width: 95%; height: 30%; color: white; text-align: center; padding-bottom: 5%;   background-image: linear-gradient(to bottom right, rgba(0, 76, 76, 0.7), rgba(0, 128, 128, 0.7)); border-radius: 20px; margin-bottom: 5%;">
+    <div id="sobre" style="width: 75%; height: 30%; color: white; text-align: center; padding-left: 10em; padding-right: 10em; background-image: linear-gradient(to bottom right, rgba(0, 76, 76, 0.7), rgba(0, 128, 128, 0.7)); border-radius: 20px; margin-bottom: 5%;">
         <h1>Um pouco sobre mim...</h1>
         <p>Olá, sou Lucas, moro em Valparaíso de Goiás e sou formado em Análise e Desenvolvimento de Sistemas. Tenho uma paixão genuína por video games e pelo universo do desenvolvimento web.</p>
         <p>Meu portfólio reflete minha jornada no mundo da tecnologia, mostrando minha dedicação em criar soluções criativas e inovadoras no campo do Desenvolvimento Web. Com habilidades sólidas em JavaScript, React.js, HTML, CSS, Redux, posso criar interfaces de usuário elegantes e interativas, garantindo que minhas aplicações sejam bem estruturadas e visualmente atraentes.</p> 
@@ -40,10 +40,10 @@
     </div>
     <section>
     <div class="tech-list">
-        <p>Principais Tecnologias</p>
+        <h1>Principais Tecnologias</h1>
         <div class="techs">
             <img src="./imgs/icons8-front-end-64.png">
-            <p style="font-size: 25px; font-weight: bold;">Frontend</p>
+            <h1 style="font-size: 25px; font-weight: bold;">Frontend</h1>
             <li style="text-align: center;">JavaScript <img src="./imgs/icons/icons8-js.gif" width="16px"></li>
             <li>React <img src="./imgs/icons/icons8-reagir.gif" width="16px"></li>
             <li>Redux <img src="./imgs/icons/icons8-redux-48.png" width="16px"></li>
@@ -52,7 +52,7 @@
         </div>
         <div class="techs">
             <img src="./imgs/icons8-backend-64 (1).png">
-            <p style="font-size: 25px; font-weight: bold;">Backend</p>
+            <h1>Backend</h1>
             <li>Node.js <img src="./imgs/icons/icons8-node-js-48.png" width="16px"></li>
             <li>TypeScript <img src="./imgs/icons/icons8-typescript-48.png" width="16px"></li>
             <li>Python <img src="./imgs/icons/icons8-python.gif" width="16px"></li>
@@ -61,12 +61,12 @@
             <li>MySQL <img src="./imgs/icons/icons8-mysql-48.png" width="16px"></li>
         </div>
     </div>
-    <div class="projects">
-        <p>Meus projetos recentes</p>
-        <div style="display: flex; justify-content: space-around; padding-top: 5%;">
+    <div class="projects" id="projects">
+        <h1>Confira aqui meus projetos recentes</h1>
+        <div style="display: flex; justify-content: space-around; padding-top: 5%; flex-wrap: wrap;">
             <div class="project">
                 <img src="./imgs/Captura de tela de 2023-07-27 21-30-03.png" width="">
-                <p id="description" hidden>Projeto desenvolvido utilizando o que há de mais moderno dentro do ecossistema React e Redux.  No aplicativo é possível ver, buscar, filtrar, favoritar e acompanhar o progresso de preparação de receitas de comidas e bebidas.</p>
+                <p id="description" hidden>Projeto desenvolvido utilizando o que há de mais moderno dentro do ecossistema React e Redux.  No aplicativo é possível ver, buscar, filtrar, favoritar e acompanhar o progresso de preparação de receitas.</p>
                 <a id="button-description" hidden href="https://github.com/LucasSilvaO/recipes-app" target="_blank">Ver Repositório</a>        
             </div>
             <div class="project">
@@ -74,21 +74,23 @@
                 <p id="description" hidden>Uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.</p>
                 <a id="button-description" hidden href="https://github.com/LucasSilvaO/trybetunnes-app" target="_blank">Ver Repositório</a>             
             </div>
+            <div class="project">
+                <img src="./imgs/Captura de tela de 2023-07-27 21-30-03.png" width="">
+                <p id="description" hidden>Projeto desenvolvido utilizando o que há de mais moderno dentro do ecossistema React e Redux.  No aplicativo é possível ver, buscar, filtrar, favoritar e acompanhar o progresso de preparação de receitas de comidas e bebidas.</p>
+                <a id="button-description" hidden href="https://github.com/LucasSilvaO/recipes-app" target="_blank">Ver Repositório</a>        
+            </div>
+            <div class="project">
+                <img src="./imgs/Captura de tela de 2023-07-27 21-30-03.png" width="">
+                <p id="description" hidden>Projeto desenvolvido utilizando o que há de mais moderno dentro do ecossistema React e Redux.  No aplicativo é possível ver, buscar, filtrar, favoritar e acompanhar o progresso de preparação de receitas de comidas e bebidas.</p>
+                <a id="button-description" hidden href="https://github.com/LucasSilvaO/recipes-app" target="_blank">Ver Repositório</a>        
+            </div>
         </div>
     </div>
     </section>
     <footer>
-        <header>
-            <div style="display: flex; flex-direction: row; width: 50%; justify-content: center;">
-                <img src="./imgs/icons/icons8-linkedin-48.png">
-                <img src="./imgs//icons/icons8-github-48.png">
-            </div>
-            <nav>
-                <a>Sobre mim</a>
-                
+            <nav>               
                 <a>@2023 Lucas Oliveira</a>
             </nav>
-        </header>
     </footer>
     <script src="./index.js"></script>
 </body>

@@ -22,7 +22,7 @@ body {
 
 .apresentacao p:first-child {
     font-weight: bold;
-    font-size: 36px; /* Tamanho da fonte em pixels */
+    font-size: 50px; /* Tamanho da fonte em pixels */
     padding: 20px 20px;
 }
 
@@ -85,6 +85,16 @@ header {
     justify-content: space-around;
     width: 100%;
 }
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+}
+
+.icon-container a:hover{
+    transform: scale(1.1);
+}
 footer {
     color: aliceblue;
     display: flex;
@@ -134,6 +144,7 @@ section {
     height: 30%;
     border: 1px solid gainsboro;
     border-radius: 20px;
+    margin: 2%;
 
 }
 
@@ -153,7 +164,7 @@ section {
     width: 50%;
     font-size: 12px;
     align-self: center;
-    border: 2px solid greenyellow;
+    border: 2px solid green;
     border-radius: 20px;
     background-color: white;
     margin: 10px;
@@ -161,7 +172,8 @@ section {
     color: black;
 }
 #button-description:hover {
-    background-color: greenyellow;
+    background-color: green;
+    color: white;
 }
 
 
