@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="./imgs/icons/icons8-marcador-16.png" />
 <body style="font-family: 'Montserrat';">
     <header>
         <div class="icon-container">
@@ -30,7 +31,7 @@
         <p>Bem-vindo ao meu Portfólio</p>
     </div>
     <img id="img-decoration" src="./imgs/development-g8a50ef6e1_1280.png">
-    <div id="sobre" style="font-size: 18px;width: 75%; height: 30%; color: white; text-align: center; padding-left: 10em; padding-right: 10em; background-image: linear-gradient(to bottom right, rgba(0, 76, 76, 0.7), rgba(0, 128, 128, 0.7)); border-radius: 20px; margin-bottom: 5%;">
+    <div id="sobre">
         <h1>Um pouco sobre mim...</h1>
         <p>Moro em Valparaíso de Goiás e sou formado em Análise e Desenvolvimento de Sistemas. Tenho uma paixão genuína por video games e pelo universo do desenvolvimento web.</p>
         <p>Meu portfólio reflete minha jornada no mundo da tecnologia, mostrando minha dedicação em desenvolver soluções criativas e inovadoras no campo do Desenvolvimento Web. Com habilidades sólidas em JavaScript, React.js, HTML, CSS, Redux, posso criar interfaces de usuário elegantes e interativas, garantindo que minhas aplicações sejam bem estruturadas e visualmente atraentes.</p> 
@@ -60,8 +61,11 @@
         </div>
     </div>
     <div class="projects" id="projects">
+        <div class="project-text">
         <h1>Confira aqui meus projetos recentes</h1>
-        <div style="display: flex; justify-content: space-around; padding-top: 5%; flex-wrap: wrap;">
+        <img src="./imgs//icons/icons8-gerenciamento-de-projetos-100.png">
+        </div>
+        <div class="project-container">
             <div class="project">
                 <img src="./imgs/Captura de tela de 2023-07-27 21-30-03.png" width="">
                 <p id="description" hidden>Projeto desenvolvido utilizando o ecossistema React e Redux.  No aplicativo é possível ver, buscar, filtrar, favoritar e acompanhar o progresso de preparação de receitas.</p>
@@ -85,10 +89,8 @@
         </div>
     </div>
     </section>
-    <footer>
-            <nav>               
-                <a>@2023 Lucas Oliveira</a>
-            </nav>
+    <footer>            
+                <p>@2023 Lucas Oliveira</p>
     </footer>
     <script src="./index.js"></script>
 </body>

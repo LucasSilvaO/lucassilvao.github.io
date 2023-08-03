@@ -184,7 +184,33 @@ section {
     color: white;
 }
 
+.project-container{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 5%;
+    flex-wrap: wrap;
+}
 
+#sobre {
+    font-size:18px;
+    width: 75%;
+    height: 30%;
+    color: white;
+    text-align: center;
+    padding-left: 10em;
+    padding-right: 10em;
+    background-image: linear-gradient(to bottom right, rgba(0, 76, 76, 0.7), rgba(0, 128, 128, 0.7));
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+.project-text {
+    display: flex;
+    justify-content: center;
+}
+
+.project-text img {
+    width: 60px;
+}
 @media (max-width: 900px) {
     .apresentacao{
         display: flex;
@@ -213,5 +239,39 @@ section {
     }
     #img-decoration {
         width: 80%;
+    }
+
+
+    #sobre {
+        padding: 0;
+    }
+    section {
+        align-items: center;
+    }
+    nav{
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .project-container{
+        display: block;
+        justify-content:space-around;
+        padding-top: 5%;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 30%;
+        border: 1px solid gainsboro;
+        border-radius: 20px;
+        margin: 5%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .project-text img {
+        width: 20%;
     }
 }
