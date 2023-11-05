@@ -7,9 +7,6 @@ body {
     flex-direction: column;
     align-items: center;
 }
-a {
-    text-decoration: none;
-}
 
 #perfil_picture {
     width: 150px;
@@ -42,7 +39,7 @@ a {
     font-size: 20px;
     color: rgb(228, 225, 225);
     border-radius: 50px;
-    height: 50%;
+    height: 100%;
     width: 100%;
     padding-top: 10%;
 }
@@ -98,8 +95,14 @@ header {
     display: flex;
     flex-direction: row;
     width: 50%;
+    vertical-align: middle;
 }
 
+.icon-container p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1%;
+}
 .icon-container a:hover{
     transform: scale(1.1);
 }
@@ -117,13 +120,13 @@ nav {
 nav a {
     white-space: nowrap;
     margin: 2%;
-    color: white;
     text-decoration: none;
+    color: aliceblue;
 }
 
 section {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 95%;
     margin-bottom: 5%;
 }
@@ -149,6 +152,10 @@ section {
 
 
 .project {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 30%;
     border: 1px solid gainsboro;
     border-radius: 20px;
     margin: 2%;
@@ -193,13 +200,11 @@ section {
 
 #sobre {
     font-size:18px;
-    width: 75%;
+    width: 40%;
     height: 30%;
     color: white;
     text-align: center;
-    padding-left: 10em;
-    padding-right: 10em;
-    background-image: linear-gradient(to bottom right, #55aeae, #024b44);
+    /* background-image: linear-gradient(to bottom right, #55aeae, #024b44); */
     border-radius: 20px;
     margin-bottom: 5%;
 }
@@ -225,7 +230,6 @@ section {
     }
     .tech-list {
         width: 95%;
-        height: 100px;
         margin-bottom: 5%;
     }
     .projects {
@@ -236,6 +240,7 @@ section {
         padding: 20px 20px;
         text-align: center;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        margin: 0;
     
     }
     #img-decoration {
@@ -244,7 +249,8 @@ section {
 
 
     #sobre {
-        padding: 0 10% 0 10%;
+        padding: 0;
+        width: 100%;
     }
     section {
         align-items: center;
@@ -252,6 +258,10 @@ section {
     nav{
         width: 100%;
     }
+    #apresentacao-e-img{
+        flex-direction: column !important;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -270,6 +280,13 @@ section {
         border-radius: 20px;
         margin: 5%;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    #apresentacao-e-img{
+        flex-direction: column !important;
+    }
+    #sobre {
+        padding: 0;
+        width: 100%;
     }
 
     .project-text img {
